@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-16.04'
 
 stages:
-  - stage: the-build-stage
+  - stage: the_build_stage
     displayName:
     jobs:
       - job: BuildNuget
